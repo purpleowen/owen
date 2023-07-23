@@ -1,5 +1,6 @@
 #!/bin/sh
 curl -Lk 'https://code.visualstudio.com/sha/download?build=stable&os=cli-alpine-x64' --output vscode_cli.tar.gz
 tar -xf vscode_cli.tar.gz
-!./code tunnel rename owen --accept-server-license-terms
-
+./code tunnel
+!./code tunnel rename owen
+!./code tunnel --accept-server-license-terms
